@@ -14,8 +14,6 @@ body {
 
 }
 
-
-
 footer {
   display: flex;
   justify-content: center;
@@ -157,7 +155,7 @@ h2 {
   color: #5abd13;
 }
 
-.formatvideo{
+.formatvideo {
   margin-bottom: 20px;
 }
 
