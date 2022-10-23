@@ -28,20 +28,6 @@ header {
   margin-bottom: 10px;
   font-size: x-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  animation: 1s ease-out 0s 1 animation_entrer;
-  -moz-animation: 1s ease-out 0s 1 animation_entrer;
-  -o-animation: 1s ease-out 0s 1 animation_entrer;
-  -webkit-animation: 1s ease-out 0s 1 animation_entrer;
-}
-
-@keyframes animation_entrer {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
 }
 
 nav {
@@ -86,6 +72,10 @@ li a:hover {
   border-style: solid;
   font-size: small;
   margin-top: 0%;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 
 /* lier le déroulant */
