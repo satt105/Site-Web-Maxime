@@ -1,0 +1,336 @@
+@charset "utf-8"
+
+* {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #3b2f2f;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #233d57;
+  color: #fff;
+}
+
+/* image en haut du header */
+.bannière {
+  display: block;
+  height: 173px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  letter-spacing: 0px;
+}
+
+/* Menu disposition */
+header {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Partie-Menu Dropdown */
+li {
+  float: left;
+  list-style-type: none;
+}
+
+.bossList {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  background-color: rgb(17, 168, 168);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+li a:hover {
+  background-color: rgb(47, 44, 44);
+}
+
+.bossItems {
+  display: none;
+  position: absolute;
+  background-color: #675353;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(255, 20, 20);
+  padding: 0px 0px;
+  z-index: 1;
+  border-style: solid;
+  font-size: small;
+  margin-top: 0%;
+}
+
+/* lier le déroulant */
+.bossItems a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-style: solid;
+}
+
+.bossItems a:hover {
+  background-color: rgb(126, 189, 24);
+  opacity: 0.65;
+}
+
+.bossList:hover .bossItems {
+  display: block;
+  position: absolute;
+  /* transform: translateX(-50%); */
+}
+
+.fullMenu {
+  object-position: top;
+}
+
+/* Partie Vidéo Trailer */
+/* Première section (video) */
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: auto auto;
+  width: 1000px;
+  background-color: rgb(15, 10, 78);
+  justify-content: center;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 30px rgb(93, 10, 135);
+  margin-bottom: 40px;
+}
+
+h1 {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  text-decoration: underline;
+  color: #6d5454;
+}
+
+h2 {
+  display: block;
+  text-align: left;
+  text-decoration: underline;
+  font-style: inherit;
+  color: #5abd13;
+
+}
+
+.Trailerjeux {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #5abd13;
+}
+
+.formatvideo{
+  margin-bottom: 20px;
+}
+
+.videoacceuil {
+  margin-bottom: 25px;
+  margin: auto auto;
+}
+
+/* Deuxième section ( image jeux) */
+.galerie {
+  display: flex;
+  flex-direction: row column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fanart {
+  width: 400px;
+  height: 300px;
+  margin: 35px;
+  box-shadow: 0px 0px 25px #200fb6;
+  transition: 1.0s all ease-in-out;
+}
+
+.fanart:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+figure {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  flex-flow: column;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #5abd13;
+  text-decoration: underline;
+  font-size: 25px;
+
+}
+
+/* Partie Résumer du jeux */
+table,
+td {
+  border: 1px solid #333;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+thead,
+tfoot {
+  background-color: rgb(206, 189, 30);
+  color: #fff;
+}
+
+h3 {
+  color: rgb(201, 46, 18);
+  font-size: x-large;
+  text-decoration-line: underline
+}
+
+.textlore {
+  font-family: fantasy;
+  font-style: unset;
+  color: #9b7226;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.alignea {
+  margin-left: 2%;
+}
+
+.retourtext {
+  margin-top: -1.5%;
+}
+
+.listezone {
+  list-style-type: square;
+  text-align: left;
+  color: aliceblue;
+}
+
+.ulzone {
+  text-align: left;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.leftliste {
+  justify-content: left;
+
+}
+
+.centerliste {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: xx-large;
+  text-align: center;
+  color: #6d5454;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif x;
+  text-decoration: underline;
+}
+
+.imagezone {
+  width: 700px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 25px #200fb6;
+}
+
+.textzone {
+  color: #fff;
+}
+
+h5 {
+  font-size: xx-large;
+  color: #6d5454;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  display: block;
+  margin-top: 30px;
+  margin-left: 3 0px;
+  margin-right: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.zonetexte {
+  color: #c2a268;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 10px 10px 10px;
+}
+
+.explorationimage {
+  display: flex;
+  flex-direction: row column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
