@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style_media.css" />
     <link rel="stylesheet" href="css/animation.css" />
+    <link rel="shortcut icon"
+          type="image/ico"
+          href="css/image/icon/favicon.jpg"/>
     <title>Royaume Tequilien</title>
   </head>
   <a href="index.html">
-    <img class="bannière" src="css/image/12922969.jpg" alt="relou ce code" />
+    <img class="banniere" src="css/image/12922969.jpg" alt="relou ce code" />
   </a>
   <header>
     <nav>
@@ -76,6 +79,15 @@
     </nav>
   </header>
   <body>
+    <embed src="css/audio/Elden_Ring_Main_Theme.mp3"
+           loop="true"
+           autostart="true"
+           width="1"
+           height="0"/>
+    <!-- taille de 1 pixel pour outre passer les demandes -->
+    <video id="background-video" autoplay loop muted>
+      <source src="css/image/video/day.mp4" type="video/mp4" />
+    </video>
     <section>
       <table>
         <thead>
@@ -161,7 +173,7 @@
       <h3>
         Histoire :
       </h3>
-      <div class="textlore">
+      <div id="textlore">
         <p class="alignea">
           Notre histoire prend racine dans le royaume de l'Entre-terre gouverné par une femme
           puissante, la <em>Marika
