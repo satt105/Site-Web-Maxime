@@ -1,128 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Royaume Tequilien</title>
-</head>
-<a href="index.html"><img class="bannière" src="css/image/12922969.jpg" alt="relou ce code" /></a>
-<header>
-  <nav>
-    <!-- Partie Menu -->
-    <div class="fullMenu">
-      <li><a href="Résume.html" target="_blank">Résumé du Jeux</a></li>
-      <li class="bossList"><a>Boss</a>
-        <div class="bossItems">
-          <a href="Margit.html">Margit le déchu</a>
-          <a href="Godrick.html">Godrick le greffé</a>
-          <a href="Rennala.html"> Rennala, reine de la pleine lune </a>
-          <a href="Radahn.html">Radahn, fléau des astres</a>
-          <a href="Gargouilles.html">Gargouilles vaillantes</a>
-          <a href="Godfrey.html">Godfrey, premier seigneur d'Elden</a>
-          <a href="Morgott.html">Morgott, roi des réprouvés</a>
-          <a href="Mohg.html">Mohg le réprouvé</a>
-          <a href="Astel.html">Astel le rejeton du vide</a>
-          <a href="Géant.html">Géant de feu</a>
-          <a href="Mohgwyn.html">Mohgwyn, seigneur du sang</a>
-          <a href="Serpent.html">Serpent dévoreur de dieux et Rykard le blasphémateur</a>
-          <a href="Malenia.html">Malenia, épée de Miquella</a>
-          <a href="Maliketh.html">Maliketh, la lame d'ébène</a>
-          <a href="Haorah.html">Haorah Loux</a>
-          <a href="Radagon.html">Radagon de l'Ordre d'or et Bête d'Elden</a>
-      </li>
-      <li><a href="https://mapgenie.io/elden-ring/maps/the-lands-between" target="_blank">Carte
-          Interactive</a></li>
-      <li><a href="https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki" target="_blank">Wiki
-          EldenRing</a></li>
-      <li class="bossList "><a>Équipement</a>
-        <div class="bossItems">
-          <a>Arme :</a>
-          <a>Arme Légère</a>
-          <a>Arme à une main</a>
-          <a>Arme à deux mains</a>
-          <a>Arc</a>
-          <a>Arbalète</a>
-          <a>Bouclier</a>
-          <a>Armure :</a>
-          <a>Armure Légère</a>
-          <a>Armure Intermédiaire</a>
-          <a>Armure lourde</a>
-          <a>Magie :</a>
-          <a>Sorcellerie</a>
-          <a>Incantations</a>
-        </div>
-      </li>
-      <li><a href="PNJ.html">PNJ</a></li>
-    </div>
-  </nav>
-</header>
-
-<body>
-  <section>
-    <table>
-      <thead>
-        <tr>
-          <th colspan="4">Les configurations PC :</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>- EXIGENCES MINIMALES :</strong></td>
-          <td><strong>- EXIGENCES RECOMMANDÉES :</strong></td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- Processeur : Intel Core i5-8400 / AMD FX-Ryzen 3 3300X</td>
-          <td>- Processeur : Intel Core i7-8700K / AMD Ryzen 5 3600X</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- RAM : 12 Go</td>
-          <td>- RAM : 16 Go</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- Système d'exploitation : Windows 10</td>
-          <td>- Système d'exploitation : Windows 11/10</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- Nvidia GeForce GTX 1060 3 Go / AMD Radeon RX 580 4 Go</td>
-          <td>- Nvidia GeForce GTX 1070 8 Go / AMD Radeon RX Vega 56 8 Go</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- Storage: 60GB</td>
-          <td>- Storage: 60GB</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td>- Sound Card: Windows-Compatible Audio Device</td>
-          <td>- Sound Card: Windows-Compatible Audio Device</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <section>
-    <h3> Histoire :</h3>
-    <div class="textlore">
-      <p class="alignea"> Notre histoire prend racine dans le royaume de l'Entre-terre gouverné par une femme
-        puissante, la <em>Marika
-          l'Éternelle</em>. Alors qu'elle tire en partie </p>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_media.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <title>Royaume Tequilien</title>
+  </head>
+  <a href="index.html">
+    <img class="bannière" src="css/image/12922969.jpg" alt="relou ce code" />
+  </a>
+  <header>
+    <nav>
+      <!-- Partie Menu -->
+      <div class="fullMenu">
+        <li>
+          <a href="Résume.html" target="_blank">Résumé du Jeux</a>
+        </li>
+        <li class="bossList">
+          <a>Boss</a>
+          <div class="bossItems">
+            <a href="Margit.html">Margit le déchu</a>
+            <a href="Godrick.html">Godrick le greffé</a>
+            <a href="Rennala.html">Rennala, reine de la pleine lune</a>
+            <a href="Radahn.html">Radahn, fléau des astres</a>
+            <a href="Gargouilles.html">Gargouilles vaillantes</a>
+            <a href="Godfrey.html">Godfrey, premier seigneur d'Elden</a>
+            <a href="Morgott.html">Morgott, roi des réprouvés</a>
+            <a href="Mohg.html">Mohg le réprouvé</a>
+            <a href="Astel.html">Astel le rejeton du vide</a>
+            <a href="Géant.html">Géant de feu</a>
+            <a href="Mohgwyn.html">Mohgwyn, seigneur du sang</a>
+            <a href="Serpent.html">Serpent dévoreur de dieux et Rykard le blasphémateur</a>
+            <a href="Malenia.html">Malenia, épée de Miquella</a>
+            <a href="Maliketh.html">Maliketh, la lame d'ébène</a>
+            <a href="Haorah.html">Haorah Loux</a>
+            <a href="Radagon.html">Radagon de l'Ordre d'or et Bête d'Elden</a>
+          </div>
+        </li>
+        <li>
+          <a href="https://mapgenie.io/elden-ring/maps/the-lands-between"
+             target="_blank">Carte
+          Interactive</a>
+        </li>
+        <li>
+          <a href="https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki"
+             target="_blank">Wiki
+          EldenRing</a>
+        </li>
+        <li class="bossList ">
+          <a>Équipement</a>
+          <div class="bossItems">
+            <a>Arme :</a>
+            <a>Arme Légère</a>
+            <a>Arme à une main</a>
+            <a>Arme à deux mains</a>
+            <a>Arc</a>
+            <a>Arbalète</a>
+            <a>Bouclier</a>
+            <a>Armure :</a>
+            <a>Armure Légère</a>
+            <a>Armure Intermédiaire</a>
+            <a>Armure lourde</a>
+            <a>Magie :</a>
+            <a>Sorcellerie</a>
+            <a>Incantations</a>
+          </div>
+        </li>
+        <li>
+          <a href="PNJ.html">PNJ</a>
+        </li>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">
+              Les configurations PC :
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>- EXIGENCES MINIMALES :</strong>
+            </td>
+            <td>
+              <strong>- EXIGENCES RECOMMANDÉES :</strong>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - Processeur : Intel Core i5-8400 / AMD FX-Ryzen 3 3300X
+            </td>
+            <td>
+              - Processeur : Intel Core i7-8700K / AMD Ryzen 5 3600X
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - RAM : 12 Go
+            </td>
+            <td>
+              - RAM : 16 Go
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - Système d'exploitation : Windows 10
+            </td>
+            <td>
+              - Système d'exploitation : Windows 11/10
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - Nvidia GeForce GTX 1060 3 Go / AMD Radeon RX 580 4 Go
+            </td>
+            <td>
+              - Nvidia GeForce GTX 1070 8 Go / AMD Radeon RX Vega 56 8 Go
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - Storage: 60GB
+            </td>
+            <td>
+              - Storage: 60GB
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              - Sound Card: Windows-Compatible Audio Device
+            </td>
+            <td>
+              - Sound Card: Windows-Compatible Audio Device
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h3>
+        Histoire :
+      </h3>
+      <div class="textlore">
+        <p class="alignea">
+          Notre histoire prend racine dans le royaume de l'Entre-terre gouverné par une femme
+          puissante, la <em>Marika
+        l'Éternelle</em>. Alors qu'elle tire en partie
+      </p>
       <p class="retourtext">
         son pouvoir de l'Elden Ring - ou l'Anneau d'Elden dans la langue de Molière -
         celui-ci se retrouve brisé en plusieurs éclats.
       </p>
-      <p class="alignea"> La stabilité préservée jusqu'alors est rompue par une effroyable guerre de pouvoir. Une
+      <p class="alignea">
+        La stabilité préservée jusqu'alors est rompue par une effroyable guerre de pouvoir. Une
         guerre qui s'étend sur tout le
         royaume et dont les récits traverses les océans. Ce royaume est à présent déserté par la
         <em>Volonté</em>. Ces habitants
@@ -132,7 +182,8 @@
         dorénavant le titre de
         Porteurs de Grandes Runes.
       </p>
-      <p class="alignea">L'<em>Elden Ring</em> n'est pas une simple babiole magique puisqu'il est à l'origine du
+      <p class="alignea">
+        L'<em>Elden Ring</em> n'est pas une simple babiole magique puisqu'il est à l'origine du
         grand arbre Erdtree. Magnificiente
         représentation de la Nature, cet arbre dorée est visible en tout point de l'Entre-terre. Avant la
         dissolution du
@@ -140,7 +191,8 @@
         absolument être
         protégé.
       </p>
-      <p class="alignea">A l'aube de ce qui pourrait un cataclysme encore plus grand, vous apparaissez comme une
+      <p class="alignea">
+        A l'aube de ce qui pourrait un cataclysme encore plus grand, vous apparaissez comme une
         lueur d'espoir afin de rétablir
         l'unité et la paix. Vos pas sont guidés dans le but de devenir le Seigneur de l'Entre-terre. La seule
         personne capable
@@ -153,153 +205,234 @@
     </div>
   </section>
   <section>
-    <h4>Remarque :</h4>
-    <p class="textzone">Comme toujours chez FromSoftware, personne ne vient nous prendre par la main pour nous
+    <h4>
+      Remarque :
+    </h4>
+    <p class="textzone">
+      Comme toujours chez FromSoftware, personne ne vient nous prendre par la main pour nous
       indiquer où aller ni quoi faire.
       Cela peut déstabiliser, d’autant que nous sommes désormais dans un monde « ouvert ». Mais la débrouille est
       le maître
       mot dans ce jeu impitoyable où même les plus chétives créatures tueront d’un coup le guerrier qui baisserait
       sa garde. De plus Elden ring fera passer le joueur par toutes les émotions allant du désespoir au bonheur
-      après avoir lutter pendant des heures entière à essayer de tuer un Boss.</p>
+      après avoir lutter pendant des heures entière à essayer de tuer un Boss.
+    </p>
   </section>
   <section class="leftliste">
-    <p class="textzone">Elden Ring possède de nombreuses zones explorable que le joueur peut explorer dans l'ordre quil
+    <p class="textzone">
+      Elden Ring possède de nombreuses zones explorable que le joueur peut explorer dans l'ordre quil
       souhaite,
       allant d'une forêt au marais passant par les montagnes enneigées ou bien encore un volcan. Les décors
       d'Elden ring
       regorge de paysage magnifique prêt à être découvert. La difficulté des zones varie un peu soyez prudent
-      sans-grâce. :</p>
+      sans-grâce. :
+    </p>
     <ul class="ulzone">
-      <li class="listezone">- Nécrolimbe (région de départ)</li>
-      <li class="listezone">- Zone Bastion de la Table Ronde</li>
-      <li class="listezone">- La Siofra (région souterraine de Nécrolimbe)</li>
-      <li class="listezone">- La Siofra, seconde partie : Nokron, la cité éternelle</li>
-      <li class="listezone">- Liurnia (Nord de Nécrolimbe)</li>
-      <li class="listezone">- L'Ainsel (région souterraine de Liurnia)</li>
-      <li class="listezone">- Caelid (Est de Nécrolimbe)</li>
-      <li class="listezone">- Plateau d'Altus (Nord de Liurnia)</li>
-      <li class="listezone">- Mont Gelmir (Nord-ouest du Plateau d'Altus)</li>
-      <li class="listezone">- Leyndell, capitale royale (Est du Plateau d'Altus)</li>
-      <li class="listezone">- Profondeurs de Fonderacine (Suite de Nokron)</li>
-      <li class="listezone">- Cimes des géants (Nord-est de la capitale)</li>
-      <li class="listezone">- Champs de neige consacrés (via médaillon secret)</li>
-      <li class="listezone">- Palais Mohgwyn (téléporteur aux Champs de neige, ou quêtes de Varré)</li>
-      <li class="listezone">- Arbre sacré de Miquella (Nord des Champs de neige)</li>
-      <li class="listezone">- Farum Azula (en allumant la Forge des géants)</li>
-      <li class="listezone">- Capitale des cendres (en battant le boss de Farum Azula) </li>
+      <li class="listezone">
+        - Nécrolimbe (région de départ)
+      </li>
+      <li class="listezone">
+        - Zone Bastion de la Table Ronde
+      </li>
+      <li class="listezone">
+        - La Siofra (région souterraine de Nécrolimbe)
+      </li>
+      <li class="listezone">
+        - La Siofra, seconde partie : Nokron, la cité éternelle
+      </li>
+      <li class="listezone">
+        - Liurnia (Nord de Nécrolimbe)
+      </li>
+      <li class="listezone">
+        - L'Ainsel (région souterraine de Liurnia)
+      </li>
+      <li class="listezone">
+        - Caelid (Est de Nécrolimbe)
+      </li>
+      <li class="listezone">
+        - Plateau d'Altus (Nord de Liurnia)
+      </li>
+      <li class="listezone">
+        - Mont Gelmir (Nord-ouest du Plateau d'Altus)
+      </li>
+      <li class="listezone">
+        - Leyndell, capitale royale (Est du Plateau d'Altus)
+      </li>
+      <li class="listezone">
+        - Profondeurs de Fonderacine (Suite de Nokron)
+      </li>
+      <li class="listezone">
+        - Cimes des géants (Nord-est de la capitale)
+      </li>
+      <li class="listezone">
+        - Champs de neige consacrés (via médaillon secret)
+      </li>
+      <li class="listezone">
+        - Palais Mohgwyn (téléporteur aux Champs de neige, ou quêtes de Varré)
+      </li>
+      <li class="listezone">
+        - Arbre sacré de Miquella (Nord des Champs de neige)
+      </li>
+      <li class="listezone">
+        - Farum Azula (en allumant la Forge des géants)
+      </li>
+      <li class="listezone">
+        - Capitale des cendres (en battant le boss de Farum Azula)
+      </li>
     </ul>
   </section>
   <section>
     <div class="formatage_centre">
-      <h4> Nécrolimbre :</h4>
-      <p class="textzone"> Nécrolimbre est la zone dans laquel le joueur arrive après avoir finit le didacticiel
+      <h4>
+        Nécrolimbre :
+      </h4>
+      <p class="textzone">
+        Nécrolimbre est la zone dans laquel le joueur arrive après avoir finit le didacticiel
         du jeux, de plus
         il
         est fortement conseiller aux joueurs de l'explorer. Puisque que celle-ci débloque des fonctionnalités
         fort
-        utile pour le joueur. Ainsi que de pouvoir démarrer de nombreuses quêtes.</p>
-      <img class=" imagezone fanart" src="css\image\Nécrolimbe1.jpg">
-      <p class="textzone">Nécrolimbe regorge de ressources en tout genre comme des fruits, des champignons,
+        utile pour le joueur. Ainsi que de pouvoir démarrer de nombreuses quêtes.
+      </p>
+      <img class=" imagezone fanart"
+           src="css\image\Nécrolimbe1.jpg"
+           alt="pas d'image disponible"/>
+      <p class="textzone">
+        Nécrolimbe regorge de ressources en tout genre comme des fruits, des champignons,
         des herbes ou
         encore des racines. Vous
         trouverez également vos premiers manuels d'artisanats. Ainsi que de quelques secrets et énigmes. Par
         exemple uen statute dont son coeur brille ? Ou bien encore des traces de pas sur la plage d'une chose
-        invisible ?</p>
-      <br>
-  </section>
-  <section>
-    <h4> Bastion de la Table Ronde :</h4>
-    <p class="textzone">Avant de pouvoir vous rendre au Bastion de la Table Ronde, vous devez avoir fait la
-      connaissance de
-      Melina, la sorcière.
-      La sorcière vous invite à visiter cette place forte dès que vous avez visité trois sites de grâce où que
-      vous avez tuez
-      Margit, le Déchu.</p>
-    <br>
-    <p class="textzone">Melina vous invitera à la suivre à la Table Ronde, Le bastion recèle quelques secrets
-      liés d'une part à
-      l'exploration de la zone et d'autres part des secrets liés à votre
-      avancée dans le jeu. C'est un lieu où vous serez amené à revenir régulièrement pour débloquer de
-      nouveaux équipements.
-      En parlant avec ses occuspants cela peut vous mener à suivre des quêtes annexes ( PNJ) mais aussi à en
-      apprendre plus sur le
-      lore d'Elden Ring. La Table Ronde est lieu qui va subir des changements tout au fil de vos actions sur
-      l'histoire et sur la vie des PNG qui l'habite.</p>
-    <img class="imagezone fanart" src="css\image\Tableronde1.png">
-    <p class="textzone">Voici les fonctionnalitées que offre la Table Ronde au joueur pour améliorer son
-      équipement et en
-      apparendre davantage sur l'histoire du jeux :</p>
-    <ul class=" centerliste ">
-      <a class="listezone">- Amélioration des armes
+        invisible ?
+      </p>
+      <br/>
+    </section>
+    <section>
+      <h4>
+        Bastion de la Table Ronde :
+      </h4>
+      <p class="textzone">
+        Avant de pouvoir vous rendre au Bastion de la Table Ronde, vous devez avoir fait la
+        connaissance de
+        Melina, la sorcière.
+        La sorcière vous invite à visiter cette place forte dès que vous avez visité trois sites de grâce où que
+        vous avez tuez
+        Margit, le Déchu.
+      </p>
+      <br/>
+      <p class="textzone">
+        Melina vous invitera à la suivre à la Table Ronde, Le bastion recèle quelques secrets
+        liés d'une part à
+        l'exploration de la zone et d'autres part des secrets liés à votre
+        avancée dans le jeu. C'est un lieu où vous serez amené à revenir régulièrement pour débloquer de
+        nouveaux équipements.
+        En parlant avec ses occuspants cela peut vous mener à suivre des quêtes annexes ( PNJ) mais aussi à en
+        apprendre plus sur le
+        lore d'Elden Ring. La Table Ronde est lieu qui va subir des changements tout au fil de vos actions sur
+        l'histoire et sur la vie des PNG qui l'habite.
+      </p>
+      <img class="imagezone fanart"
+           src="css\image\Tableronde1.png"
+           alt="pas d'image disponible"/>
+      <p class="textzone">
+        Voici les fonctionnalitées que offre la Table Ronde au joueur pour améliorer son
+        équipement et en
+        apparendre davantage sur l'histoire du jeux :
+      </p>
+      <ul class=" centerliste ">
+        <a class="listezone">- Amélioration des armes</a>
         <a class="listezone">- Amélioration des Cendres d'esprit (vos invocations)</a>
         <a class="listezone">- Achat d'équipement des marchands morts</a>
         <a class="listezone">- Informations sur les demi-dieux</a>
         <a class="listezone">- Apprentissage d'incantations</a>
-    </ul>
-  </section>
-  <section>
-    <h4>La Siofra :</h4>
-  </section>
-  <section>
-    <h4> La Siofria ( Nokron), seconde partie</h4>
-  </section>
-  <section>
-    <h4> Liurnia :</h4>
-  </section>
-  <section>
-    <h4> L'Ainsel :</h4>
-  </section>
-  <section>
-    <h4> Caelid :</h4>
-  </section>
-  <section>
-    <h4> Plateau d'Altu :</h4>
-  </section>
-  <section>
-    <h4> Mont Gelmir :</h4>
-  </section>
-  <section>
-
-    <h4> Leyndell :</h4>
-  </section>
-  <section>
-
-    <h4> Profondeurs de Fonderacine :</h4>
-  </section>
-  <section>
-
-    <h4> Cimes des géants :</h4>
-  </section>
-  <section>
-
-    <h4> Champs de neige consacrés :</h4>
-  </section>
-  <section>
-
-    <h4> Palais Mohgwyn :</h4>
-  </section>
-  <section>
-
-    <h4> Arbre sacré de Miquella :</h4>
-  </section>
-  <section>
-
-    <h4> Farum Azula :</h4>
-  </section>
-  <section>
-
-    <h4> Capitale des cendres :</h4>
-  </section>
+      </ul>
+    </section>
+    <section>
+      <h4>
+        La Siofra :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        La Siofria ( Nokron), seconde partie
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Liurnia :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        L'Ainsel :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Caelid :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Plateau d'Altu :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Mont Gelmir :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Leyndell :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Profondeurs de Fonderacine :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Cimes des géants :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Champs de neige consacrés :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Palais Mohgwyn :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Arbre sacré de Miquella :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Farum Azula :
+      </h4>
+    </section>
+    <section>
+      <h4>
+        Capitale des cendres :
+      </h4>
+    </section>
   </div>
-  </section>
   <section>
-    <h5>Exploration :</h5>
-    <p class="zonetexte">Contre toute attente le monde ouvert d'Elden Ring qu'on peut parcourir sur
+    <h5>
+      Exploration :
+    </h5>
+    <p class="zonetexte">
+      Contre toute attente le monde ouvert d'Elden Ring qu'on peut parcourir sur
       notre étalon à travers les reliefs accidentés, monter sur les falaises, chevaucher sur des ruines
       majestueuses en fauchant
       des soldats. Les graphismes sobres sont mis en valeur par des couleurs automnales qui évoquent immédiatement
       l’ambiance mélancolique du jeux.
-
       L'exploration permet de faire la découverte de nombreux monstres au design léché, la faune et la flore ne
       sont pas en reste. Passant par des moutons qui font des roulades ou des écureuils-kangourous. D’autres
       rencontres viennent
@@ -311,17 +444,25 @@
       pyrotechniques ou des raisins qui régénèrent notre monture. Les possibilités offertes par le monde semblent
       considérables. Comme dit précedemment le joueur explore le monde comme il le souhait pouvant ainsi dès le
       début de son aventure parcourir les dernières zones du jeux. Avec les dangers que cela implique.
-    <div class="explorationimage">
-      <img class="fanart" src="css/image/exploration1.png">
-      <img class="fanart" src="css/image/exploration2.png">
-      <img class="fanart" src="css/image/exploration3.png">
-
-    </div>
+      <div class="explorationimage">
+        <img class="fanart"
+             src="css/image/exploration1.png"
+             alt="pas d'image disponible"/>
+        <img class="fanart"
+             src="css/image/exploration2.png"
+             alt="pas d'image disponible"/>
+        <img class="fanart"
+             src="css/image/exploration3.png"
+             alt="pas d'image disponible"/>
+      </div>
     </p>
   </section>
   <section>
-    <h5>Système de Combat :</h5>
-    <p class="zonetexte">Combattez dans Anneau de feu est la principale façon dont vous interagissez avec le monde
+    <h5>
+      Système de Combat :
+    </h5>
+    <p class="zonetexte">
+      Combattez dans Anneau de feu est la principale façon dont vous interagissez avec le monde
       qui vous entoure. Vous ferez
       face à de nombreux combats difficiles au cours de votre voyage à travers les Lands Between, mais vous aurez
       également
@@ -331,9 +472,13 @@
       jeu, et
       affrontez les guerriers les plus féroces qui habitent les terres intermédiaires.Avec deux mains votre arme pour
       plus de force
-      ou utilisez deux armes du même type pour des attaques de puissance.</p>
-    <img class="fanart" src="css/image/classe.png">
-    <p class="zonetexte">Equipez-vous d'un Bouclier et montez votre garde pour bloquer les attaques entrantes. La
+      ou utilisez deux armes du même type pour des attaques de puissance.
+    </p>
+    <img class="fanart"
+         src="css/image/classe.png"
+         alt="pas d'image disponible"/>
+    <p class="zonetexte">
+      Equipez-vous d'un Bouclier et montez votre garde pour bloquer les attaques entrantes. La
       quantité de dégâts bloqués
       dépend des statistiques de votre bouclier, mais avec un peu de détermination, vous pouvez trouver un
       bouclier qui vous
@@ -341,16 +486,26 @@
       bloquez en
       consommera Endurance, et si vous en manquez, vous serez rendu immobile et vulnérable pendant quelques
       précieuses
-      secondes.</p>
+      secondes.
+    </p>
     <figure>
-      <figcaption> Contre Attaque :</figcaption>
-      <img class="fanart" src="css/image/parade1.png">
+      <figcaption>
+        Contre Attaque :
+      </figcaption>
+      <img class="fanart"
+           src="css/image/parade1.png"
+           alt="pas d'image disponible"/>
     </figure>
     <figure>
-      <figcaption>Parade :</figcaption>
-      <img class="fanart" src="css/image/parade2.png">
+      <figcaption>
+        Parade :
+      </figcaption>
+      <img class="fanart"
+           src="css/image/parade2.png"
+           alt="pas d'image disponible"/>
     </figure>
-    <p class="zonetexte">La meilleure façon de survivre au combat est de ne pas se faire toucher. Roulez dans
+    <p class="zonetexte">
+      La meilleure façon de survivre au combat est de ne pas se faire toucher. Roulez dans
       n'importe quelle direction pour
       vous écarter du danger, ou utilisez votre brève invulnérabilité tout en roulant pour esquiver les attaques
       venant en
@@ -358,9 +513,10 @@
       de l'humble
       roulade d'esquive, Elden Ring propose un certain nombre de moyens supplémentaires pour éviter les attaques,
       y
-      comprissauter par-dessus eux et en utilisantcompétences spéciales.</p>
-
-    <p class="zonetexte">Chaque arme dans Elden Ring a une compétence spéciale que vous pouvez utiliser. Beaucoup de
+      comprissauter par-dessus eux et en utilisantcompétences spéciales.
+    </p>
+    <p class="zonetexte">
+      Chaque arme dans Elden Ring a une compétence spéciale que vous pouvez utiliser. Beaucoup de
       ces compétences sont des
       attaques spéciales, bien que certaines puissent vous aider à endurer les coups, faire unesquive spéciale, ou
       vous
@@ -368,9 +524,13 @@
       Lands
       Between pour changer les compétences de nombreuses armes. Mélangez et assortissez pour trouver la
       construction parfaite
-      pour vous!</p>
-    <img class="fanart" src="css/image/compétence.jpg">
-    <p class="zonetexte">Toutes les rencontres ne doivent pas être abordées de front. Les mécanismes furtifs d'Elden
+      pour vous!
+    </p>
+    <img class="fanart"
+         src="css/image/compétence.jpg"
+         alt="pas d'image disponible"/>
+    <p class="zonetexte">
+      Toutes les rencontres ne doivent pas être abordées de front. Les mécanismes furtifs d'Elden
       Ring vous permettent de vous
       faufiler dans les combats que vous voudrez peut-être éviter. Accroupissez-vous au ras du sol pour réduire
       votre bruit,
@@ -380,9 +540,10 @@
       êtes prêt à
       vous révéler, placez-vous derrière un ennemi sans méfiance pour lancer un puissantcoup critique. Vous
       obtiendrez
-      toujours un bonus de dégâts contre les ennemis qui ne savent pas que vous êtes là !</p>
-
-    <p class="zonetexte">Le bouton de saut d'Elden Ring n'est pas seulement pour explorer le monde, il ajoute
+      toujours un bonus de dégâts contre les ennemis qui ne savent pas que vous êtes là !
+    </p>
+    <p class="zonetexte">
+      Le bouton de saut d'Elden Ring n'est pas seulement pour explorer le monde, il ajoute
       également une couche supplémentaire
       de jeu au combat. Puissantattaques de saut vous permettent de réduire la distance et de faire de grandes
       quantités
@@ -390,42 +551,63 @@
       jambes et votre
       torse sont invulnérables la plupart du temps que vous êtes dans les airs. Attention cependant : si vous êtes
       touché
-      alors que vous êtes en l'air, vous serez envoyé à terre !</p>
+      alors que vous êtes en l'air, vous serez envoyé à terre !
+    </p>
   </section>
   <section>
-    <h5>Magie :</h5>
-    <p class="textzone"> Pour les joueurs préférant user de la magie pour explorer le monde d'Elden Ring, la
+    <h5>
+      Magie :
+    </h5>
+    <p class="textzone">
+      Pour les joueurs préférant user de la magie pour explorer le monde d'Elden Ring, la
       possibilité d'invoquer des compagnons,sorcellerie ou encore des incantations seront misent à leur
-      disposition.</p>
-    <h5>Cendres Spirituelles :</h5>
-    <p class="textzone"> En ce qui concerne les invocations Spirituelles, il faut que le joueur possède l'item
+      disposition.
+    </p>
+    <h5>
+      Cendres Spirituelles :
+    </h5>
+    <p class="textzone">
+      En ce qui concerne les invocations Spirituelles, il faut que le joueur possède l'item
       "cloche d'invocation des esprits" obtenable après avoir obtenir votre monture auprès de Mélinia. Il suffit
       au joueur de se rendre à l'église d'Elleh et de parler à une sorcière en bleu de lui répondre "Oui". Elle
-      vous donnera l'item et disparaitra aussitôt.</p>
-    <p class="textzone"> Il y aussi possibilité d'améliorer ces cendres Spirituelles. Pour débloquer cette
+      vous donnera l'item et disparaitra aussitôt.
+    </p>
+    <p class="textzone">
+      Il y aussi possibilité d'améliorer ces cendres Spirituelles. Pour débloquer cette
       fonctionnalitées Roderika est le seul PNJ capable d'améliorer Cendres spirituelles. Elle propose ses
       services après une courte quête
       parallèle :
     </p>
     <ul class="ulzone">
-      <li class="listezone"> 1-Parler à Roderika au Stormhill Shack.</li>
-      <li class="listezone">2-Se diriger vers Château Stormvoile et collecter Souvenir des Chrysalides.</li>
-      <li class="listezone">3-Retourner à Roderika et retourner le momento.</li>
-      <li class="listezone">4-Voyage au Table ronde, et parler avec elle et avec Forgeron Hewg plusieurs fois
+      <li class="listezone">
+        1-Parler à Roderika au Stormhill Shack.
+      </li>
+      <li class="listezone">
+        2-Se diriger vers Château Stormvoile et collecter Souvenir des Chrysalides.
+      </li>
+      <li class="listezone">
+        3-Retourner à Roderika et retourner le momento.
+      </li>
+      <li class="listezone">
+        4-Voyage au Table ronde, et parler avec elle et avec Forgeron Hewg plusieurs fois
         jusqu'à ce que vous épuisiez leurs
-        options de dialogue.</li>
-      <li class="listezone">5-Rechargez la zone en partant ou par d'autres moyens.</li>
-      <li class="listezone">6- Roderika sera désormais assis en face du forgeron Hewget et est capable d'améliorer
-        vos cendres spirituels.</li>
+        options de dialogue.
+      </li>
+      <li class="listezone">
+        5-Rechargez la zone en partant ou par d'autres moyens.
+      </li>
+      <li class="listezone">
+        6- Roderika sera désormais assis en face du forgeron Hewget et est capable d'améliorer
+        vos cendres spirituels.
+      </li>
     </ul>
-    <p class="textzone"> Cloche Invocation d'esprits peut être équipé et utilisé à partir de vos emplacements
+    <p class="textzone">
+      Cloche Invocation d'esprits peut être équipé et utilisé à partir de vos emplacements
       rapides ou de votre pochette. Cependant, ils ne
       peuvent être utilisés qu'en dehors deCoopération multijoueur et quand près d'unMonument de la Renaissance.
-
       Après avoir invoqué dans une zone donnée, vous n'êtes pas autorisé à invoquer à nouveau dans cette zone tant
       que vous ne
       vous êtes pas reposé à n'importe quel endroit.Sites de grâce ou Voyage rapide.
-
       Les joueurs peuvent réutiliser les cendres spirituelles pour rejeter une invocation.
       Quitter les limites d'une zone d'invocation valide renverra tous les esprits actifs.
       Les esprits ne peuvent être invoqués qu'une seule fois par rencontre, vous ne pouvez donc pas les invoquer à
@@ -434,17 +616,25 @@
       Les esprits ne peuvent pas être invoqués tant que les effets du Remède pour les doigts furlcalling sont
       actifs. Utilisez
       à nouveau le remède pour annuler ses effets.
-      Invoquer des esprits nécessite soit de la mana ou des points de vie en fonction de la convocation.</p>
-    <p class="textzone">Cependant il y'a une condition pour invoquers vos esprits :<br>Les joueurs doivent être à
+      Invoquer des esprits nécessite soit de la mana ou des points de vie en fonction de la convocation.
+    </p>
+    <p class="textzone">
+      Cependant il y'a une condition pour invoquers vos esprits :
+      <br/>
+      Les joueurs doivent être à
       proximité d'unMonument de la Renaissance, des obélisques de pierre trouvés dans de nombreux
       points d'intérêt et presque toutes les arènes de boss, pour utiliser Spirit Ashes.
       Une icône de monument, illustrée ci-dessous, apparaîtra sur le côté gauche de l'écran lorsque les conditions
       sont
-      remplies. </p>
+      remplies.
+    </p>
   </section>
   <section>
-    <h5> Sorcellerie :</h5>
-    <p class="textzone">Les sorcelleries sont un type de la magie dans Anneau de feu. Les sorts de sorcellerie
+    <h5>
+      Sorcellerie :
+    </h5>
+    <p class="textzone">
+      Les sorcelleries sont un type de la magie dans Anneau de feu. Les sorts de sorcellerie
       dépendent souvent
       de la stat intelligence, et ont une variété d'effets, allant de la conjuration de projectiles magiques à
       l'appel
@@ -454,93 +644,172 @@
       Les sorcelleries sont lancées à l'aide d'unBâton de pierre scintillante. Il existe des entraîneurs qui vous
       permettent
       d'acheter de nombreux sorts pourrunes, tandis que d'autres se trouvent dans le monde.
-
       Vous pouvez maintenir le bouton Cast enfoncé pour charger certaines sorcelleries , pour sortir une version
       plus
       puissante, sans consommer plus de ressources. Cela retardera le temps d'incantation; mais il y en a
       plusieurs Bâtons,
       Talismans, et d'autres morceaux deÉquipement qui peut aider avec le temps d'incantation et PF consommation.
-
       Notez que lancer un sort consomme également Endurance, il peut donc être utile d'investir quelques points
-      dans Endurance.</p>
-    <p class=" textzone">La plupart des sorcelleries peuvent être acquises auprès de différents PNJ qui agissent en
+      dans Endurance.
+    </p>
+    <p class=" textzone">
+      La plupart des sorcelleries peuvent être acquises auprès de différents PNJ qui agissent en
       tant qu'entraîneurs et vous
       vendent des sorts de sorcellerie. Voici une liste avec tous les formateurs de sorcellerie dansAnneau de feu:
     </p>
     <ul>
-      <li class="listezone">Thops est à l'intérieur du Église d'IrithdansLiurnie des lacs.</li>
-      <li class="listezone">Cellules de Sorcière peut être trouvé debout près d'un coffre au trésor dans leRuines
+      <li class="listezone">
+        Thops est à l'intérieur du Église d'IrithdansLiurnie des lacs.
+      </li>
+      <li class="listezone">
+        Cellules de Sorcière peut être trouvé debout près d'un coffre au trésor dans leRuines
         de point de
         cheminement dans la
-        partie orientale deLimgrave ouest.</li>
-      <li class="listezone">Gowry est assis dans la Cabane de Gowry, au Sud de Sellia, ville de la sorcellerie. Il
+        partie orientale deLimgrave ouest.
+      </li>
+      <li class="listezone">
+        Gowry est assis dans la Cabane de Gowry, au Sud de Sellia, ville de la sorcellerie. Il
         devient marchand
         une fois que le joueur a
-        récupéré l'Aiguille en or non allié pour la quête de millicent.</li>
-      <li class="listezone">Miriel, Pasteur des Vœux est à l'intérieur du Église des vœux.</li>
-      <li class="listezone">Précepteur de la forêt peuvent être trouvés dans L'ascension de Seluvis, après l'avoir
+        récupéré l'Aiguille en or non allié pour la quête de millicent.
+      </li>
+      <li class="listezone">
+        Miriel, Pasteur des Vœux est à l'intérieur du Église des vœux.
+      </li>
+      <li class="listezone">
+        Précepteur de la forêt peuvent être trouvés dans L'ascension de Seluvis, après l'avoir
         rencontré sous
         forme spectrale
-        dans L'ascension de Ranni.</li>
+        dans L'ascension de Ranni.
+      </li>
     </ul>
-    <p class="textzone">La sorcellerie possède de nombreux types que voici :</p>
+    <p class="textzone">
+      La sorcellerie possède de nombreux types que voici :
+    </p>
     <ul class="ulzone">
-      <li class="listezone">- SORCELLERIES ABERRANTES</li>
-      <li class="listezone">- SORCELLERIES CARIENNES</li>
-      <li class="listezone">- SORCELLERIES DES HOMMES D'ARGILE</li>
-      <li class="listezone">- SORCELLERIES CRISTALLIENNES</li>
-      <li class="listezone">- MORT SORCELLERIE</li>
-      <li class="listezone">- SORCELLERIES PLEINE LUNE</li>
-      <li class="listezone">- SORCELLERIES DE BRILLSTONE</li>
-      <li class="listezone">- SORCELLERIES DE GRAVITÉ</li>
-      <li class="listezone">- LES SORCELLERIES DE LORETTA</li>
-      <li class="listezone">- MAGMA SORCELLERIE</li>
-      <li class="listezone">- SORCELLERIES NOCTURNES</li>
-      <li class="listezone">- SORCELLERIES PRIMITIVES</li>
-      <li class="listezone">- SORCIELLEIES DE LA SORCIÈRE DES NEIGES</li>
+      <li class="listezone">
+        - SORCELLERIES ABERRANTES
+      </li>
+      <li class="listezone">
+        - SORCELLERIES CARIENNES
+      </li>
+      <li class="listezone">
+        - SORCELLERIES DES HOMMES D'ARGILE
+      </li>
+      <li class="listezone">
+        - SORCELLERIES CRISTALLIENNES
+      </li>
+      <li class="listezone">
+        - MORT SORCELLERIE
+      </li>
+      <li class="listezone">
+        - SORCELLERIES PLEINE LUNE
+      </li>
+      <li class="listezone">
+        - SORCELLERIES DE BRILLSTONE
+      </li>
+      <li class="listezone">
+        - SORCELLERIES DE GRAVITÉ
+      </li>
+      <li class="listezone">
+        - LES SORCELLERIES DE LORETTA
+      </li>
+      <li class="listezone">
+        - MAGMA SORCELLERIE
+      </li>
+      <li class="listezone">
+        - SORCELLERIES NOCTURNES
+      </li>
+      <li class="listezone">
+        - SORCELLERIES PRIMITIVES
+      </li>
+      <li class="listezone">
+        - SORCIELLEIES DE LA SORCIÈRE DES NEIGES
+      </li>
     </ul>
   </section>
   <section>
-    <h5>Incantations :</h5>
-    <p class="textzone">Les incantations sont un type de magie dans l'Anneau de feu. Les sorts d' incantation
+    <h5>
+      Incantations :
+    </h5>
+    <p class="textzone">
+      Les incantations sont un type de magie dans l'Anneau de feu. Les sorts d' incantation
       dépendent généralement de la stat de foi,
       et ont une variété d'effets (tels que la guérison, les effets de statut de guérison, infligeant des dégâts
       et enchantant
-      des personnes ou des armes). Les incantations sont lancées en utilisant un Sceaux sacrés.</p>
-    <p class="textzone">La plupart des incantations peuvent être acquises à partir de différentsPNJqui agissent en
+      des personnes ou des armes). Les incantations sont lancées en utilisant un Sceaux sacrés.
+    </p>
+    <p class="textzone">
+      La plupart des incantations peuvent être acquises à partir de différentsPNJqui agissent en
       tant que formateurs et vous
       vendent des sorts d' incantation . Voici une liste avec tous les entraîneurs d' Incantation dans Elden Ring
-      :</p>
+      :
+    </p>
     <ul class="ulzone">
-      <li class="listezone">Frère Corhyn peut être trouvé à Table ronde, puis il se déplace à côté d'une route
+      <li class="listezone">
+        Frère Corhyn peut être trouvé à Table ronde, puis il se déplace à côté d'une route
         dans Altus Plateau, après quoi il se
-        dirige vers le pont brisé (également en Altus), et finalement il déménage à Leyndell.</li>
-      <li class="listezone">- D, Chasseur de morts se tient d'abord près Village d'invocation de l'eau, et plus
+        dirige vers le pont brisé (également en Altus), et finalement il déménage à Leyndell.
+      </li>
+      <li class="listezone">
+        - D, Chasseur de morts se tient d'abord près Village d'invocation de l'eau, et plus
         tard il s'assoit à table dans Table
-        ronde.</li>
-      <li class="listezone">-Gurranq, Beast Clergyman se trouve au Sainte Bête dans le nord-est Célidé. Cet
+        ronde.
+      </li>
+      <li class="listezone">
+        -Gurranq, Beast Clergyman se trouve au Sainte Bête dans le nord-est Célidé. Cet
         emplacement est accessible en utilisant une
-        passerelle dans Limgrave.</li>
-      <li class="listezone">- Miriel, Pasteur des Vœux est à l'intérieur du Église des vœux, dans l'est Liurnie des
-        lacs.</li>
-      <li class="listezone">- Gowry</li>
+        passerelle dans Limgrave.
+      </li>
+      <li class="listezone">
+        - Miriel, Pasteur des Vœux est à l'intérieur du Église des vœux, dans l'est Liurnie des
+        lacs.
+      </li>
+      <li class="listezone">
+        - Gowry
+      </li>
     </ul>
-    <p class="textzone">Il y'a plusieurs types d'incantations possible :</p>
+    <p class="textzone">
+      Il y'a plusieurs types d'incantations possible :
+    </p>
     <ul class="ulzone">
-      <li class="listezone">- INCANTATIONS BESTIALES</li>
-      <li class="listezone">- INCANTATIONS DE SANG</li>
-      <li class="listezone">- INCANTATIONS DE LA COMMUNION DU DRAGON</li>
-      <li class="listezone">- INCANTATIONS DU CULTE DU DRAGON</li>
-      <li class="listezone">- INCANTATIONS D'ERDTREE</li>
-      <li class="listezone">- INCANTATIONS DE GÉANT DU FEU</li>
-      <li class="listezone">- INCANTATIONS DE FLAMMES FRÉNÉTIQUES</li>
-      <li class="listezone">- INCANTATIONS D'APÔTRE GODSKIN</li>
-      <li class="listezone">- INCANTATIONS DE L'ORDRE D'OR</li>
-      <li class="listezone">- SERVITEURS DE LA POURRITURE INCANTATIONS</li>
-      <li class="listezone">- INCANTATIONS À DEUX DOIGTS</li>
+      <li class="listezone">
+        - INCANTATIONS BESTIALES
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DE SANG
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DE LA COMMUNION DU DRAGON
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DU CULTE DU DRAGON
+      </li>
+      <li class="listezone">
+        - INCANTATIONS D'ERDTREE
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DE GÉANT DU FEU
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DE FLAMMES FRÉNÉTIQUES
+      </li>
+      <li class="listezone">
+        - INCANTATIONS D'APÔTRE GODSKIN
+      </li>
+      <li class="listezone">
+        - INCANTATIONS DE L'ORDRE D'OR
+      </li>
+      <li class="listezone">
+        - SERVITEURS DE LA POURRITURE INCANTATIONS
+      </li>
+      <li class="listezone">
+        - INCANTATIONS À DEUX DOIGTS
+      </li>
     </ul>
   </section>
   <footer>
     Maxime Foca SNIR1
   </footer>
 </body>
+</html>
