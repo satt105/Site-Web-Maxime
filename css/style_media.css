@@ -1,3 +1,13 @@
+/* formatage de la video */
+.formatvideo {
+  margin-bottom: 20px;
+}
+
+.videoacceuil {
+  margin-bottom: 25px;
+  margin: auto auto;
+}
+
 /* image en haut du header */
 .banniere {
   display: block;
